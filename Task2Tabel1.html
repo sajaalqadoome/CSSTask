@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    th{
+    background-color: yellow;
+}
+body
+{
+    
+      display: flex;
+      justify-content: center;
+       flex-direction: column;
+      align-items: center;
+      height: 100vh;
+}
+
+
+.Login-box
+{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 250px;
+    text-align: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn
+{
+      width: 100%;
+      background-color: #0a66c2;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
+}
+
+.Forget
+{
+      display: block;
+      text-align: left;
+      color: #0a66c2;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-size: 14px;
+}
+
+ input[type="text"],
+    input[type="password"]
+     {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+}
+    .btn-Apple
+    {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #000;
+      border-radius: 25px;
+      background-color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
+}
+.or
+{
+    color: #888;
+      margin: 10px 0;
+      position: relative;
+      text-align: center;
+}
+
+.or::before,
+    .or::after {
+      content: "";
+      height: 1px;
+      width: 40%;
+      background: #ccc;
+      position: absolute;
+      top: 50%;
+    }
+
+.or::before
+{
+left: 0;
+}
+.or::after
+{
+    right: 0;
+}
+
+</style>
+<body>
+    <div class="Login-box">
+    <b>Sign in</b>
+    <p>Stay update on your professional world</p>
+
+        <input type="text" placeholder="Email pr Phone">
+        <input type="password" placeholder="Password">
+        
+<a href="#" class="Forget">Forget password?</a>
+    <button class="btn">Sign in</button>
+     <div class="or">or</div>
+    <button class="btn-Apple">
+    <img src="download (2).jfif" width="30px" height="30px">    
+    Sign in with Appl
+    e</button>
+</div>
+</body>
+</html>
